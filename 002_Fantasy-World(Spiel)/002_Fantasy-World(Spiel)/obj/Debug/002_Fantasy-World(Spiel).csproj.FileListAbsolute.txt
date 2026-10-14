@@ -1,0 +1,14 @@
+C:\Users\jakob\Schule\2026_27\SEW\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\bin\Debug\002_Fantasy-World(Spiel).exe.config
+C:\Users\jakob\Schule\2026_27\SEW\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\bin\Debug\002_Fantasy-World(Spiel).exe
+C:\Users\jakob\Schule\2026_27\SEW\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\bin\Debug\002_Fantasy-World(Spiel).pdb
+C:\Users\jakob\Schule\2026_27\SEW\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).csproj.AssemblyReference.cache
+C:\Users\jakob\Schule\2026_27\SEW\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).csproj.CoreCompileInputs.cache
+C:\Users\jakob\Schule\2026_27\SEW\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).exe
+C:\Users\jakob\Schule\2026_27\SEW\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).pdb
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW_Unterricht\Unterricht_Zusammen\Fantasy_World\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\bin\Debug\002_Fantasy-World(Spiel).exe.config
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW_Unterricht\Unterricht_Zusammen\Fantasy_World\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\bin\Debug\002_Fantasy-World(Spiel).exe
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW_Unterricht\Unterricht_Zusammen\Fantasy_World\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\bin\Debug\002_Fantasy-World(Spiel).pdb
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW_Unterricht\Unterricht_Zusammen\Fantasy_World\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).csproj.AssemblyReference.cache
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW_Unterricht\Unterricht_Zusammen\Fantasy_World\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).csproj.CoreCompileInputs.cache
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW_Unterricht\Unterricht_Zusammen\Fantasy_World\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).exe
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW_Unterricht\Unterricht_Zusammen\Fantasy_World\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\002_Fantasy-World(Spiel)\obj\Debug\002_Fantasy-World(Spiel).pdb
