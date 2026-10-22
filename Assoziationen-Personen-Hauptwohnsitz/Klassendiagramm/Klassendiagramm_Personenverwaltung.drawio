@@ -1,0 +1,60 @@
+<mxfile host="app.diagrams.net">
+  <diagram name="Seite-1" id="Tj26IyePhz9PG_Pw631O">
+    <mxGraphModel dx="2579" dy="2383" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Adresse" vertex="1">
+          <mxGeometry height="230" width="260" x="-120" y="-50" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-2" parent="I2pdXu-0af0QbezNIgxJ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Strasse: string &amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;div&gt;&lt;div&gt;+ Hausnummer: string&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Postleitzahl: int&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Ort: string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Bundesland: string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Land: string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="94" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-3" parent="I2pdXu-0af0QbezNIgxJ-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-4" parent="I2pdXu-0af0QbezNIgxJ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Adresse(strasse: string; hausnummer: string; plz: int; ort: string; bundesland: string; land: string)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ ToString(): string&amp;nbsp;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="260" y="128" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Person" vertex="1">
+          <mxGeometry height="290" width="260" x="470" y="-50" as="geometry">
+            <mxRectangle height="30" width="80" x="470" y="-50" as="alternateBounds" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-9" parent="I2pdXu-0af0QbezNIgxJ-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ ID: int&amp;nbsp;&amp;nbsp;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;div&gt;+Vorname: string&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Nachname: string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ EMail: string&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+Geburtsdatum: DateTime&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;+ Hauptwohnsitz: Adresse&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(#000000, var(--ge-light-color, #ffffff));&quot;&gt;&amp;lt;&amp;lt;property&amp;gt;&amp;gt;&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="104" width="260" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-10" parent="I2pdXu-0af0QbezNIgxJ-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;labelPerimeter=1;" value="" vertex="1">
+          <mxGeometry height="8" width="260" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-11" parent="I2pdXu-0af0QbezNIgxJ-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+ Person(id: int; vorname: string; nachname: string; email:string; geburtsdatum: Datetime; hauptwohnsitz: Adresse)&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ BerechneAlter(): int&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ VollerName(): string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;+ ToString(): string&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="152" width="260" y="138" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-12" edge="1" parent="1" source="I2pdXu-0af0QbezNIgxJ-16" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=gap;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="I2pdXu-0af0QbezNIgxJ-2" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="340" y="120" as="sourcePoint" />
+            <mxPoint x="390" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-14" edge="1" parent="1" source="I2pdXu-0af0QbezNIgxJ-9" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=gap;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="I2pdXu-0af0QbezNIgxJ-13" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="470" y="27" as="sourcePoint" />
+            <mxPoint x="140" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-13" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="0..*" vertex="1">
+          <mxGeometry height="30" width="60" x="384" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-17" edge="1" parent="1" source="I2pdXu-0af0QbezNIgxJ-13" style="endArrow=classic;html=1;rounded=0;defaultLabelBackgroundColor=gap;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" target="I2pdXu-0af0QbezNIgxJ-16" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="384" y="25" as="sourcePoint" />
+            <mxPoint x="140" y="23" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="I2pdXu-0af0QbezNIgxJ-16" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="1" vertex="1">
+          <mxGeometry height="30" width="60" x="170" y="10" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
