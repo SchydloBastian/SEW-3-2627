@@ -1,0 +1,7 @@
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW-3-2627\Assoziationen-Personen-Hauptwohnsitz\Assoziationen-Personen-Hauptwohnsitz\bin\Debug\Assoziationen-Personen-Hauptwohnsitz.exe.config
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW-3-2627\Assoziationen-Personen-Hauptwohnsitz\Assoziationen-Personen-Hauptwohnsitz\bin\Debug\Assoziationen-Personen-Hauptwohnsitz.exe
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW-3-2627\Assoziationen-Personen-Hauptwohnsitz\Assoziationen-Personen-Hauptwohnsitz\bin\Debug\Assoziationen-Personen-Hauptwohnsitz.pdb
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW-3-2627\Assoziationen-Personen-Hauptwohnsitz\Assoziationen-Personen-Hauptwohnsitz\obj\Debug\Assoziationen-Personen-Hauptwohnsitz.csproj.AssemblyReference.cache
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW-3-2627\Assoziationen-Personen-Hauptwohnsitz\Assoziationen-Personen-Hauptwohnsitz\obj\Debug\Assoziationen-Personen-Hauptwohnsitz.csproj.CoreCompileInputs.cache
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW-3-2627\Assoziationen-Personen-Hauptwohnsitz\Assoziationen-Personen-Hauptwohnsitz\obj\Debug\Assoziationen-Personen-Hauptwohnsitz.exe
+C:\Users\Basti\OneDrive\Pictures\Documents\HTL\SEW\SEW-3-2627\Assoziationen-Personen-Hauptwohnsitz\Assoziationen-Personen-Hauptwohnsitz\obj\Debug\Assoziationen-Personen-Hauptwohnsitz.pdb
