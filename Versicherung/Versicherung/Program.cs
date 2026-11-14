@@ -25,14 +25,10 @@ namespace Versicherung
             Versicherungsvertrag v2 = new Versicherungsvertrag("ALZ-1002", allianz, p3);
             v2.AddMitversicherter(p1);
 
-            // 4. Zweite Gesellschaft (Generali): 2 Versicherungsverträge
             Versicherungsvertrag v3 = new Versicherungsvertrag("GEN-2001", generali, p4);
             v3.AddMitversicherter(p5);
 
             Versicherungsvertrag v4 = new Versicherungsvertrag("GEN-2002", generali, p2);
-            // Vertrag ohne Mitversicherte (Kardinalität 0..*)
-
-            // Alle Daten sind nun wie gefordert im Speicher angelegt.
         }
     }
 }
