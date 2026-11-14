@@ -1,0 +1,7 @@
+S:\HTL\SEW\SEW-3-2627\Versicherung\Versicherung\bin\Debug\Versicherung.exe.config
+S:\HTL\SEW\SEW-3-2627\Versicherung\Versicherung\bin\Debug\Versicherung.exe
+S:\HTL\SEW\SEW-3-2627\Versicherung\Versicherung\bin\Debug\Versicherung.pdb
+S:\HTL\SEW\SEW-3-2627\Versicherung\Versicherung\obj\Debug\Versicherung.csproj.AssemblyReference.cache
+S:\HTL\SEW\SEW-3-2627\Versicherung\Versicherung\obj\Debug\Versicherung.csproj.CoreCompileInputs.cache
+S:\HTL\SEW\SEW-3-2627\Versicherung\Versicherung\obj\Debug\Versicherung.exe
+S:\HTL\SEW\SEW-3-2627\Versicherung\Versicherung\obj\Debug\Versicherung.pdb
