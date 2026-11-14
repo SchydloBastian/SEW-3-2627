@@ -21,7 +21,6 @@ namespace Versicherung
             this.versicherungsnehmer = versicherungsnehmer ?? throw new ArgumentNullException(nameof(versicherungsnehmer));
             this.mitversicherte = new List<Person>();
 
-            // Bidirektionale Verknüpfungen herstellen
             gesellschaft.AddVertrag(this);
             versicherungsnehmer.AddVersicherung(this);
         }
@@ -30,7 +29,6 @@ namespace Versicherung
         {
             if (person == null) return;
 
-            // {XOR}-Regel prüfen: Versicherungsnehmer darf nicht gleichzeitig Mitversicherter sein
             if (person == versicherungsnehmer)
             {
                 throw new InvalidOperationException("Der Versicherungsnehmer kann nicht gleichzeitig Mitversicherter im selben Vertrag sein (XOR-Regel).");
