@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace Assoziationen_Personen_Hauptwohnsitz
 {
-    internal class Person : Adresse
+    public class Person : Adresse
     {
         public int ID { get; set; }
         public string Vorname { get; set; }
