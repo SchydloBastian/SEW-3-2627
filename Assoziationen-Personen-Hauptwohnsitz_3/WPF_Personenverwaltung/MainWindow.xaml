@@ -1,42 +1,65 @@
-﻿<Window x:Class="Assoziationen_Personen_Hauptwohnsitz.MainWindow"
+﻿<Window x:Class="WPF_Personenverwaltung.MainWindow"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-        Title="Personen und Hauptwohnsitz" Height="400" Width="800">
+        Title="Personenverwaltung" Height="560" Width="760"
+        Closing="Window_Closing">
     <Grid Margin="15">
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="20" />
-            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="400"/>
+            <ColumnDefinition Width="20"/>
+            <ColumnDefinition Width="250"/>
         </Grid.ColumnDefinitions>
 
-        <Grid.RowDefinitions>
-            <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+        <DockPanel Grid.Column="0">
+            <DockPanel DockPanel.Dock="Top" Margin="0,0,0,5">
+                <Button DockPanel.Dock="Right" Content="Adresse löschen" Background="LightCoral" Padding="8,2" Click="BtnAdresseLoeschen_Click"/>
+                <TextBlock Text="Adressen" FontSize="14"/>
+            </DockPanel>
 
-        <TextBlock Grid.Row="0" Grid.Column="0" Text="Adressen (bitte auswählen):" FontWeight="Bold" Margin="0,0,0,5"/>
-        <TextBlock Grid.Row="0" Grid.Column="2" Text="Bewohner an dieser Adresse:" FontWeight="Bold" Margin="0,0,0,5"/>
+            <Border DockPanel.Dock="Bottom" BorderBrush="Black" BorderThickness="1" Padding="10" Margin="0,15,0,0">
+                <StackPanel>
+                    <TextBlock Text="Adresse erstellen" FontWeight="Bold" Margin="0,0,0,8"/>
+                    <TextBlock Text="Straße:"/>
+                    <TextBox x:Name="txtStrasse" Margin="0,2,0,6"/>
+                    <TextBlock Text="PLZ:"/>
+                    <TextBox x:Name="txtPLZ" Margin="0,2,0,6"/>
+                    <TextBlock Text="Ort:"/>
+                    <TextBox x:Name="txtOrt" Margin="0,2,0,10"/>
+                    <Button Content="speichern" Background="LightGray" Click="BtnAdresseSpeichern_Click"/>
+                </StackPanel>
+            </Border>
 
-        <ListView x:Name="lvAdressen" Grid.Row="1" Grid.Column="0" SelectionChanged="lvAdressen_SelectionChanged">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="Straße" DisplayMemberBinding="{Binding Strasse}" Width="120"/>
-                    <GridViewColumn Header="Nr." DisplayMemberBinding="{Binding Hausnummer}" Width="45"/>
-                    <GridViewColumn Header="PLZ" DisplayMemberBinding="{Binding PLZ}" Width="55"/>
-                    <GridViewColumn Header="Ort" DisplayMemberBinding="{Binding Ort}" Width="100"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
+            <ListView x:Name="lvAdressen" BorderBrush="Black" BorderThickness="1" SelectionChanged="lvAdressen_SelectionChanged"/>
+        </DockPanel>
 
-        <ListView x:Name="lvPersonen" Grid.Row="1" Grid.Column="2">
-            <ListView.View>
-                <GridView>
-                    <GridViewColumn Header="ID" DisplayMemberBinding="{Binding ID}" Width="35"/>
-                    <GridViewColumn Header="Vorname" DisplayMemberBinding="{Binding Vorname}" Width="90"/>
-                    <GridViewColumn Header="Nachname" DisplayMemberBinding="{Binding Nachname}" Width="95"/>
-                    <GridViewColumn Header="E-Mail" DisplayMemberBinding="{Binding Email}" Width="140"/>
-                </GridView>
-            </ListView.View>
-        </ListView>
+        <DockPanel Grid.Column="2">
+            <DockPanel DockPanel.Dock="Top" Margin="0,0,0,5">
+                <Button DockPanel.Dock="Right" Content="Person löschen" Background="LightCoral" Padding="8,2" Click="BtnPersonLoeschen_Click"/>
+                <TextBlock Text="Personen" FontSize="14"/>
+            </DockPanel>
+
+            <StackPanel DockPanel.Dock="Bottom" Margin="0,15,0,0">
+                <Border BorderBrush="Black" BorderThickness="1" Padding="10" Margin="0,0,0,10">
+                    <StackPanel>
+                        <TextBlock Text="Person erstellen" FontWeight="Bold" Margin="0,0,0,8"/>
+                        <TextBlock Text="Vorname:"/>
+                        <TextBox x:Name="txtVorname" Margin="0,2,0,6"/>
+                        <TextBlock Text="Nachname:"/>
+                        <TextBox x:Name="txtNachname" Margin="0,2,0,10"/>
+                        <Button Content="speichern" Background="LightGray" Click="BtnPersonSpeichern_Click"/>
+                    </StackPanel>
+                </Border>
+
+                <Border BorderBrush="Black" BorderThickness="1" Padding="10">
+                    <StackPanel>
+                        <TextBlock Text="Umzug nach:" Margin="0,0,0,4"/>
+                        <ComboBox x:Name="cmbZielAdresse" Margin="0,0,0,8"/>
+                        <Button Content="Ummelden" Background="LightGray" Click="BtnWohnsitzWechseln_Click"/>
+                    </StackPanel>
+                </Border>
+            </StackPanel>
+
+            <ListView x:Name="lvPersonen" BorderBrush="Black" BorderThickness="1"/>
+        </DockPanel>
     </Grid>
 </Window>

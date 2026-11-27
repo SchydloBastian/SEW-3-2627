@@ -99,6 +99,10 @@
       <Project>{71b9f595-045b-492e-8f87-331cf2f0fda9}</Project>
       <Name>Assoziationen-Personen-Hauptwohnsitz</Name>
     </ProjectReference>
+    <ProjectReference Include="..\PersonenLibrary\PersonenLibrary.csproj">
+      <Project>{7acf305e-5658-4e14-890d-59984fac28b2}</Project>
+      <Name>PersonenLibrary</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
