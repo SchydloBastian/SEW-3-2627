@@ -67,10 +67,7 @@ namespace WPF_Personenverwaltung
                         if (wohnsitz != null)
                         {
                             Person p = new Person(
-                                int.Parse(teile[0]),
-                                teile[1],
-                                teile[2],
-                                teile[3],
+                                int.Parse(teile[0]),teile[1],teile[2],teile[3],
                                 DateTime.Parse(teile[4]),
                                 wohnsitz
                             );
